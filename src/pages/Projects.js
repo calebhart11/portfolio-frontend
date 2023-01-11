@@ -8,10 +8,10 @@ function Projects(props){
             <h1>{project.name}</h1>
             <div className="projectimg"><img src={project.image} alt={project.name}/></div>
             <a href={project.git}>
-                <button>Github</button>
+                <button id="gitbutton">Github</button>
             </a>
             <a href={project.live}>
-                <button>Live Site</button>
+                <button id="livebutton">Live Site</button>
             </a>
         </div>
     ))

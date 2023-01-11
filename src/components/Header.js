@@ -6,8 +6,11 @@ const navStyle= {
     justifyContent: "space-around",
     border: "3px solid black",
     padding: "width",
-    width: "90%",
-    margin: "auto"
+    width: "100%",
+    height: "3em",
+    margin: "auto",
+    margintop: "5px",
+    paddingTop: "6px"
 }
 
     return(

@@ -1,10 +1,14 @@
 body {
-  margin: 0;
+  margin: 0 auto;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://images.unsplash.com/photo-1470790376778-a9fbc86d70e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=704&q=80");
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: cover  ;
 }
 
 code {
@@ -25,7 +29,35 @@ img{
   /* flex-direction: row; */
   /* justify-content: center; */
   margin: 0 auto;
+  text-align: center;
+}
+a{
+  /* background-color: red; */
+    padding: 5px;
+    border-radius: 7px;
+    transition-duration: 0.7s;
+    cursor: pointer;
 }
 h1{
   text-align: center;
+}
+#livebutton{
+  margin:0 auto;
+  text-align: center;
+  background-color: rgb(131, 129, 129);
+    padding: 5px;
+    border-radius: 7px;
+    transition-duration: 0.7s;
+    cursor: pointer;
+}
+#gitbutton{
+  margin: 0 auto;
+  background-color: rgb(151, 139, 139);
+    padding: 5px;
+    border-radius: 7px;
+    transition-duration: 0.7s;
+    cursor: pointer;
+}
+.app{
+  margin: 0 auto;
 }
